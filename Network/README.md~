@@ -1,8 +1,8 @@
 # Network architecture
 
+![Network Architecture Diagram](/img/networkArchitecture.png)
 
-
-The network class is passive and can be used in other functions to connect to another device. The 'msg' value in the send function contains the message to send to the opponent while the 'msg' value is the variable where the received message will be stored.
+The UML diagram above gives a quick overview of the network class implementation of this project. The network class is passive and can be used in other functions to connect to another device. The 'msg' value in the send function contains the message to send to the opponent while the 'msg' value is the variable where the received message will be stored.
 
 ## Use
 
