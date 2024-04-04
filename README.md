@@ -158,4 +158,5 @@ This section serves as a list of things we think could improve the performance o
 ## Contact information
 
 Theoretical background: Maryam Zarezadeh
+
 Implementation: Hannes Bluemel
