@@ -155,6 +155,10 @@ This section serves as a list of things we think could improve the performance o
 - seperate the threads to 3 different maschines
 - use protobuf for the network communication to be more efficient
 
+## License
+
+MIT wie DPF???
+
 ## Contact information
 
 Theoretical background: Maryam Zarezadeh
