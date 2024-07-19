@@ -150,10 +150,9 @@ This section serves as a list of things we think could improve the performance o
 - outsource the server threads to different machines, decreasing the time to create the zero-knowledge proof every run
 - DPF could be improved by using every bit for a different file and not an integer using 8 bit
 
-- PVSS decode keys -> einmaliges erstellen der NTL vectoren und übergeben der positionen als temp und rechenobjekte
-- PVSS decode keys -> nth part kann jeweils pro thread ausgeführt werden
+- PVSS decode keys -> unique instanciation of the NTL vectors and further calculations with pointer 
+- PVSS decode keys -> nth part can be executed in different threats 
 - seperate the threads to 3 different maschines
-- use protobuf for the network communication to be more efficient
 
 ## Contact information
 
