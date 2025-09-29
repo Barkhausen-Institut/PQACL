@@ -1,0 +1,85 @@
+<mxfile host="app.diagrams.net" modified="2023-09-08T12:17:45.862Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="QHE4m8t5BwNflpNk41HV" version="21.7.2" type="device">
+  <diagram name="Page-1" id="5KlkcR3b-qJsCwUOOpK5">
+    <mxGraphModel dx="1723" dy="3418" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yekV8JoBu11Iv_y_uQbe-1" value="TCP Server&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="-2160" width="120" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="yekV8JoBu11Iv_y_uQbe-2" value="TCP Connection" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="340" y="-2080" width="140" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="yekV8JoBu11Iv_y_uQbe-3" value="Client" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="920" y="-2160" width="120" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="yekV8JoBu11Iv_y_uQbe-5" value="2" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=1.007;entryY=0.036;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.005;exitY=0.039;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="yekV8JoBu11Iv_y_uQbe-3" target="yekV8JoBu11Iv_y_uQbe-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="-2123" as="sourcePoint" />
+            <mxPoint x="360" y="-1960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yekV8JoBu11Iv_y_uQbe-6" value="&amp;nbsp;1. Anfrage an Server mit send()&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="yekV8JoBu11Iv_y_uQbe-5">
+          <mxGeometry x="-0.0463" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yekV8JoBu11Iv_y_uQbe-7" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;dashed=1;exitX=1.018;exitY=0.291;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.025;entryY=0.134;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="yekV8JoBu11Iv_y_uQbe-1" target="yekV8JoBu11Iv_y_uQbe-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="-1960" as="sourcePoint" />
+            <mxPoint x="340" y="-1970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yekV8JoBu11Iv_y_uQbe-8" value="&amp;nbsp;2. start_accept() startet&amp;nbsp;&lt;br&gt;neue Instanz&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="yekV8JoBu11Iv_y_uQbe-7">
+          <mxGeometry x="0.0369" y="2" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yekV8JoBu11Iv_y_uQbe-10" value="d" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=1.032;entryY=0.591;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.02;exitY=0.478;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="yekV8JoBu11Iv_y_uQbe-2" target="yekV8JoBu11Iv_y_uQbe-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="-1920" as="sourcePoint" />
+            <mxPoint x="80" y="-1920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yekV8JoBu11Iv_y_uQbe-11" value="&amp;nbsp;3. create() gibt pointer auf&lt;br&gt;TCP connection zurück" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="yekV8JoBu11Iv_y_uQbe-10">
+          <mxGeometry x="0.1319" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yekV8JoBu11Iv_y_uQbe-12" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=1.062;exitY=0.798;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="yekV8JoBu11Iv_y_uQbe-1" target="yekV8JoBu11Iv_y_uQbe-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="-1660" as="sourcePoint" />
+            <mxPoint x="140" y="-1710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yekV8JoBu11Iv_y_uQbe-13" value="&amp;nbsp;4. asynchroner handler wird bei&amp;nbsp;&lt;br&gt;erfolgreichem Verbindungsaufbau&amp;nbsp;&lt;br&gt;ausgeführ" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="yekV8JoBu11Iv_y_uQbe-12">
+          <mxGeometry x="-0.0572" y="-6" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yekV8JoBu11Iv_y_uQbe-14" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=-0.021;entryY=0.886;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.035;exitY=0.858;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="yekV8JoBu11Iv_y_uQbe-2" target="yekV8JoBu11Iv_y_uQbe-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="-1660" as="sourcePoint" />
+            <mxPoint x="550" y="-1710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yekV8JoBu11Iv_y_uQbe-15" value="&amp;nbsp;5. send() schickt Daten an Clienten&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="yekV8JoBu11Iv_y_uQbe-14">
+          <mxGeometry x="-0.1773" y="-3" relative="1" as="geometry">
+            <mxPoint x="49" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yekV8JoBu11Iv_y_uQbe-17" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=1;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.004;exitY=0.936;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="yekV8JoBu11Iv_y_uQbe-2" target="yekV8JoBu11Iv_y_uQbe-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="-1700" as="sourcePoint" />
+            <mxPoint x="460" y="-1750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yekV8JoBu11Iv_y_uQbe-18" value="&amp;nbsp;5.1 Startet neuen Listener für&lt;br&gt;weitere Verbindungen&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="yekV8JoBu11Iv_y_uQbe-17">
+          <mxGeometry x="-0.0266" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
